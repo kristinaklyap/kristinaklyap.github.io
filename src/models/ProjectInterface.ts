@@ -4,7 +4,7 @@ export interface ProjectInterface {
     description: string;
     tech_stack: string;
     urls: {
-        live: string;
-        code: string;
+        live?: string;
+        code?: string;
     }
 }
