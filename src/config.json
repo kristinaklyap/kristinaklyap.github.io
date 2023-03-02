@@ -1,6 +1,6 @@
 {
   "header": {
-    "author": "Name Surname",
+    "author": "Kristina Klyap",
     "nav_items": [
       {
         "title": "about",
@@ -15,15 +15,15 @@
   "socials": [
     {
       "brand": "mail",
-      "url": "example@gmail.com"
+      "url": "kristinka.klyap@gmail.com"
     },
     {
       "brand": "linkedin",
-      "url": "http://yoururl.com"
+      "url": "https://www.linkedin.com/in/kristina-klyap/"
     },
     {
       "brand": "github",
-      "url": "http://yoururl.com"
+      "url": "https://github.com/kristinaklyap/"
     }
   ],
   "page_order": {
@@ -33,8 +33,8 @@
   },
   "pages": {
     "intro": {
-      "title": "Hi, I'm Name!",
-      "content": "Lorem ipsum dolor sit amet. Qui voluptatem quae et quia consectetur vel magnam veritatis.",
+      "title": "Hi, I'm Kristi!",
+      "content": "I'm a web developer with over 6 years of experience creating websites and webshops. I've worked on a variety of projects, ranging from simple brochure websites to complex e-commerce platforms, and I have experience with both small and large-scale projects.",
       "breadcrumbs": {
         "pageNo": "01",
         "pageTitle": "Introduce"
@@ -44,20 +44,20 @@
       "title": "I am a Web Developer",
       "cv": {
         "title": "Download CV",
-        "file": "cv.pdf"
+        "file": "klyap_kristina_cv.pdf"
       },
       "blocks": [
         {
           "title": "Backend:",
-          "content": "PHP, NodeJS"
+          "content": "PHP"
         },
         {
           "title": "Frontend:",
-          "content": "JavaScript (ES6), ReactJS, TypeScript, CSS(SCSS)"
+          "content": "JavaSript (ES6), TypeScript, React, CSS/SASS, RWD, Storybook"
         },
         {
           "title": "CMS: ",
-          "content": "AEM, WordPress, (+ Woocommerce)"
+          "content": "Strapi, AEM, Wordpress (+Woocommerce)"
         },
         {
           "title": "Tests: ",
@@ -76,85 +76,92 @@
     "portfolio": {
       "projects": [
         {
+          "image": "project_12.png",
+          "title": "Barn Registry",
+          "description": "A barn admin panel website for cows provides a comprehensive and efficient solution for managing livestock, helping farmers and livestock managers to make informed decisions and improve their operations. Real data comes from government ARiMR API",
+          "tech_stack": "React, TypeScript, CSS Modules (SCSS), Jest",
+          "urls": {
+            "live": "soon",
+            "code": ""
+          }
+        },    {
           "image": "project_1.png",
           "title": "UI Kit",
-          "description": "Lorem ipsum dolor sit amet. Non illo molestias et itaque \nquidem quo accusantium Quis. Et nulla vitae eos iusto \nmolestiae quo rerum doloribus hic dolores praesentium \net veritatis voluptates sed sequi ipsa.",
-          "tech_stack": "ReactJS, CSS Modules (SCSS), Storybook, Jest",
+          "description": "A UI kit developed in React is a collection of reusable user interface components and design elements that are built using the React library. This kit provides a comprehensive set of UI building blocks, such as avatars, buttons, popup, forms, icons, and typography, that can be quickly and easily integrated into React-based projects.",
+          "tech_stack": "React, CSS Modules (SCSS), Storybook, Jest",
           "urls": {
             "live": "https://github.com/kristinaklyap/ui-kit/",
             "code": "https://kristinaklyap.github.io/ui-kit/"
           }
-        }, {
+        },
+        {
           "image": "project_2.png",
           "title": "Balu Shop",
-          "description": "Lorem ipsum dolor sit amet. Non illo molestias et itaque \nquidem quo accusantium Quis. Et nulla vitae eos iusto \nmolestiae quo rerum doloribus hic dolores praesentium \net veritatis voluptates sed sequi ipsa.",
-          "tech_stack": "ReactJS, CSS Modules (SCSS), Storybook, Jest",
+          "description": "The project is a modern webshop developed using TypeScript and React (+ React Redux Toolkit) for the frontend, and a headless CMS called Strapi for the backend. Payments are supported by Stripe",
+          "tech_stack": "Frontend: React, TypeScript, CSS Modules (SCSS). Backend: Strapi (Headless CMS)",
           "urls": {
-            "live": "https://github.com/kristinaklyap/ui-kit/",
-            "code": "https://kristinaklyap.github.io/ui-kit/"
+            "live": "soon",
+            "code": "https://github.com/kristinaklyap/balu-ts"
           }
-        }, {
+        },
+        {
           "image": "project_3.png",
           "title": "Portfolio page",
-          "description": "Lorem ipsum dolor sit amet. Non illo molestias et itaque \nquidem quo accusantium Quis. Et nulla vitae eos iusto \nmolestiae quo rerum doloribus hic dolores praesentium \net veritatis voluptates sed sequi ipsa.",
-          "tech_stack": "ReactJS, CSS Modules (SCSS), Storybook, Jest",
+          "description": "Personal website built with React and TypeScript. Fun fact: portfolio can be easily adapted by anyone to meet their needs, with only updating config.json file.",
+          "tech_stack": "React, TypeScript, CSS Modules (SCSS)",
           "urls": {
-            "live": "https://github.com/kristinaklyap/ui-kit/",
-            "code": "https://kristinaklyap.github.io/ui-kit/"
+            "live": "https://kristinaklyap.github.io/",
+            "code": "https://github.com/kristinaklyap/portfolio-ts"
           }
-        }, {
-          "image": "project_2.png",
-          "title": "Balu Shop3",
-          "description": "Lorem ipsum dolor sit amet. Non illo molestias et itaque \nquidem quo accusantium Quis. Et nulla vitae eos iusto \nmolestiae quo rerum doloribus hic dolores praesentium \net veritatis voluptates sed sequi ipsa.",
-          "tech_stack": "ReactJS, CSS Modules (SCSS), Storybook, Jest",
+        },
+        {
+          "image": "project_4.png",
+          "title": "Poetry",
+          "description": "'Poetry' is a digital platform that presents a collection of poems.  ",
+          "tech_stack": "React, TypeScript, CSS Modules (SCSS)",
           "urls": {
-            "live": "https://github.com/kristinaklyap/ui-kit/",
-            "code": "https://kristinaklyap.github.io/ui-kit/"
+            "live": "https://bozena-waliszka.pl/",
+            "code": ""
           }
-        }, {
-          "image": "project_2.png",
-          "title": "Balu Shop4",
-          "description": "Lorem ipsum dolor sit amet. Non illo molestias et itaque \nquidem quo accusantium Quis. Et nulla vitae eos iusto \nmolestiae quo rerum doloribus hic dolores praesentium \net veritatis voluptates sed sequi ipsa.",
-          "tech_stack": "ReactJS, CSS Modules (SCSS), Storybook, Jest",
+        },
+        {
+          "image": "project_5_2.png",
+          "title": "Art Odlew",
+          "description": "My role in this project involved the only to development aspect, where the website was built using WordPress as the content management system. The WordPress instance included ACF components, and for the project was written custom theme in PHP from the backend perspective. Frontend was based on JavaScript and CSS (business requirement)",
+          "tech_stack": "JavaScript (ES6), CSS, PHP, WordPress",
           "urls": {
-            "live": "https://github.com/kristinaklyap/ui-kit/",
-            "code": "https://kristinaklyap.github.io/ui-kit/"
+            "live": "https://art-odlew.pl/",
+            "code": ""
           }
-        }, {
-          "image": "project_2.png",
-          "title": "Balu Shop4",
-          "description": "Lorem ipsum dolor sit amet. Non illo molestias et itaque \nquidem quo accusantium Quis. Et nulla vitae eos iusto \nmolestiae quo rerum doloribus hic dolores praesentium \net veritatis voluptates sed sequi ipsa.",
-          "tech_stack": "ReactJS, CSS Modules (SCSS), Storybook, Jest",
+        },
+        {
+          "image": "project_9.png",
+          "title": "AZ Frame",
+          "description": "My role in this project involved the only to development aspect, where the website was built using WordPress as the content management system. The WordPress instance included ACF components, and for the project was written custom theme in PHP from the backend perspective. Frontend was based on JavaScript and CSS (business requirement)",
+          "tech_stack": "JavaScript (ES6), CSS, PHP, WordPress",
           "urls": {
-            "live": "https://github.com/kristinaklyap/ui-kit/",
-            "code": "https://kristinaklyap.github.io/ui-kit/"
+            "live": "https://azframe.pl/",
+            "code": ""
           }
-        }, {
-          "image": "project_2.png",
-          "title": "Balu Shop4",
-          "description": "Lorem ipsum dolor sit amet. Non illo molestias et itaque \nquidem quo accusantium Quis. Et nulla vitae eos iusto \nmolestiae quo rerum doloribus hic dolores praesentium \net veritatis voluptates sed sequi ipsa.",
-          "tech_stack": "ReactJS, CSS Modules (SCSS), Storybook, Jest",
+        },
+        {
+          "image": "project_10.png",
+          "title": "Via Sacra",
+          "description": "My role in this project involved the only to development aspect, where the website was built using WordPress as the content management system. The WordPress instance included ACF components, and for the project was written custom theme in PHP from the backend perspective. Frontend was based on JavaScript and CSS (business requirement)",
+          "tech_stack": "JavaScript (ES6), CSS, PHP, WordPress",
           "urls": {
-            "live": "https://github.com/kristinaklyap/ui-kit/",
-            "code": "https://kristinaklyap.github.io/ui-kit/"
+            "live": "",
+            "code": ""
           }
-        }, {
-          "image": "project_2.png",
-          "title": "Balu Shop4",
-          "description": "Lorem ipsum dolor sit amet. Non illo molestias et itaque \nquidem quo accusantium Quis. Et nulla vitae eos iusto \nmolestiae quo rerum doloribus hic dolores praesentium \net veritatis voluptates sed sequi ipsa.",
-          "tech_stack": "ReactJS, CSS Modules (SCSS), Storybook, Jest",
+        },
+        {
+          "image": "project_11.png",
+          "title": "Transport Slomka",
+          "description": "Multilanguage website was built using WordPress as the content management system. For this project was written custom theme in PHP from the backend perspective. Frontend was based on JavaScript and CSS.",
+          "tech_stack": "JavaScript (ES6), CSS, PHP, WordPress",
           "urls": {
-            "live": "https://github.com/kristinaklyap/ui-kit/",
-            "code": "https://kristinaklyap.github.io/ui-kit/"
-          }
-        }, {
-          "image": "project_2.png",
-          "title": "Balu Shop4",
-          "description": "Lorem ipsum dolor sit amet. Non illo molestias et itaque \nquidem quo accusantium Quis. Et nulla vitae eos iusto \nmolestiae quo rerum doloribus hic dolores praesentium \net veritatis voluptates sed sequi ipsa.",
-          "tech_stack": "ReactJS, CSS Modules (SCSS), Storybook, Jest",
-          "urls": {
-            "live": "https://github.com/kristinaklyap/ui-kit/",
-            "code": "https://kristinaklyap.github.io/ui-kit/"
+            "live": "https://transport-slomka.eu/",
+            "code": ""
           }
         }
       ],
