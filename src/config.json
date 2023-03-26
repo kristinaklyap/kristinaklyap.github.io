@@ -100,7 +100,7 @@
           "description": "The project is a modern webshop developed using TypeScript and React (+ React Redux Toolkit) for the frontend, and a headless CMS called Strapi for the backend. Payments are supported by Stripe",
           "tech_stack": "Frontend: React, TypeScript, CSS Modules (SCSS). Backend: Strapi (Headless CMS)",
           "urls": {
-            "live": "soon",
+            "live": "https://balu.bieda.it/",
             "code": "https://github.com/kristinaklyap/balu-ts"
           }
         },
